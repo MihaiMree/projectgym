@@ -13,14 +13,11 @@
 </head>
 <body>
 <div class="image">
-       <img class="logo" src="assets/img/prog.png">
+       <img class="logo" src="assets/img/chest.webp">
 </div>
 <h1 class="main">
     Choose your muscule group
 </h1>
-<div class="chest">
-
-</div>
 
 <div class="d-flex flex-column flex-shrink-0 bg-black side-bar" >
     <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
@@ -59,7 +56,124 @@
         </li
     </ul>
 </div>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 legs">
+    <div class="col">
+        <div class="card shadow-sm">
+            <img src="assets/img/chest.webp" alt="Bootstrap"  class="border border-white" focusable="false">
+            <title>Placeholder</title>
+            <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
+
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Card title</h5>
+                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-info">More info</button>
+                        </div>
+                        <small class="text-body-secondary">6 mins</small>
+                    </div>
+                </div>
+            </rect></div>
+    </div>
+    <div class="col">
+        <div class="card shadow-sm">
+            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Card title</h5>
+                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-info">More info</button>
+                        </div>
+                        <small class="text-body-secondary">6 mins</small>
+                    </div>
+                </div>
+            </rect></div>
+    </div>
+    <div class="col">
+        <div class="card shadow-sm">
+            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Card title</h5>
+                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-info">More info</button>
+                        </div>
+                        <small class="text-body-secondary">6 mins</small>
+                    </div>
+                </div>
+            </rect></div>
+    </div>
+    <div class="col">
+        <div class="card shadow-sm">
+            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Card title</h5>
+                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-info">More info</button>
+                        </div>
+                        <small class="text-body-secondary">6 mins</small>
+                    </div>
+                </div>
+            </rect></div>
+    </div>
+    <div class="col">
+        <div class="card shadow-sm">
+            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Card title</h5>
+                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-info">More info</button>
+                        </div>
+                        <small class="text-body-secondary">6 mins</small>
+                    </div>
+                </div>
+            </rect></div>
+    </div>
+    <div class="col">
+        <div class="card shadow-sm">
+            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Card title</h5>
+                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-info">More info</button>
+                        </div>
+                        <small class="text-body-secondary">6 mins</small>
+                    </div>
+                </div>
+            </rect></div>
+    </div>
+
+
+</div>
 
 </body>
 </html>
