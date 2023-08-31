@@ -11,11 +11,14 @@
     <script src="https://kit.fontawesome.com/ad3e0eb89e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
-<body>
+<body draggable="false" ondragstart="return false">
+
 <div class="image">
-       <img class="logo" src="assets/img/prog.png">
+    <img class="logo" src="assets/img/prog.png">
+    <img class="logo-too" src="assets/img/logo2.jpeg">
 </div>
-<img class="logo-too" src="assets/img/logo2.jpeg">
+
+
 <h1 class="main">
     Choose your muscule group
 </h1>
@@ -57,7 +60,7 @@
         </li
     </ul>
 </div>
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 legs">
+<div draggable="false" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 legs">
     <div class="col">
         <div class="card shadow-sm">
             <img src="assets/img/chest.webp" alt="Bootstrap" width="280vw" height="100%"  class="group" focusable="false">

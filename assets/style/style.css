@@ -2,6 +2,7 @@ body {
 
     overflow-x: clip;
     height: 100%;
+
 }
 .main{
     position: absolute;
@@ -25,9 +26,10 @@ body {
      fill:#ffdd00;
 }
 .image {
-    width: 100vw;
+
 }
 .logo  {
+    position: relative;
     height: 10vh;
     width: 800px;
     min-width: 30vw;
@@ -35,15 +37,17 @@ body {
     z-index: 1;
 }
 .logo-too{
+    position: fixed;
     z-index: 0;
     height: 10vh;
-    width:7.1rem
+    width:7.1rem;
+    left:1vw;
 }
 
 .legs{
     position: absolute;
     width: 75vw ;
-    height: 10rem;
+    height: 20vh;
     left: 7.3rem;
     top: 19vh;
 }
