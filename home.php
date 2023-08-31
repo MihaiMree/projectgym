@@ -13,8 +13,9 @@
 </head>
 <body>
 <div class="image">
-       <img class="logo" src="assets/img/chest.webp">
+       <img class="logo" src="assets/img/prog.png">
 </div>
+<img class="logo-too" src="assets/img/logo2.jpeg">
 <h1 class="main">
     Choose your muscule group
 </h1>
@@ -59,7 +60,7 @@
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 legs">
     <div class="col">
         <div class="card shadow-sm">
-            <img src="assets/img/chest.webp" alt="Bootstrap"  class="border border-white" focusable="false">
+            <img src="assets/img/chest.webp" alt="Bootstrap" width="280vw" height="100%"  class="group" focusable="false">
             <title>Placeholder</title>
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
