@@ -14,8 +14,14 @@
 <body draggable="false" ondragstart="return false">
 
 <div class="image">
-    <img class="logo" src="assets/img/prog.png">
-    <img class="logo-too" src="assets/img/logo2.jpeg">
+    <header>
+        <div class="logo">
+
+            <h1>Gym Tracker</h1>
+            <img class="logo-too" src="assets/img/logo2.png">
+        </div>
+    </header>
+
 </div>
 
 
@@ -63,14 +69,13 @@
 <div draggable="false" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 legs">
     <div class="col">
         <div class="card shadow-sm">
-            <img src="assets/img/chest.webp" alt="Bootstrap" width="280vw" height="100%"  class="group" focusable="false">
-            <title>Placeholder</title>
+            <img src="assets/img/chest.png" alt="Bootstrap" width="280vw" height="100%"  class="group2" focusable="false">
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
 
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Card title</h5>
-                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <h5 class="card-title text-danger">Chest</h5>
+                    <p class="card-text">The pectoral muscle, commonly known as the chest muscle, is a powerful upper-body muscle group essential for arm movement and stability.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
@@ -82,14 +87,12 @@
     </div>
     <div class="col">
         <div class="card shadow-sm">
-            <img src="assets/img/legs.webp" alt="Bootstrap" width="280vw" height="100%" class="group"  focusable="false">
-            <title>Placeholder</title>
+            <img src="assets/img/legs.png" alt="Bootstrap"   class="group2"  focusable="false">
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
-
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Card title</h5>
-                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <h5 class="card-title text-danger">Legs</h5>
+                    <p class="card-text">The legs consist of various muscles, including quadriceps, hamstrings, calves, and more, enabling mobility, balance, and support for daily activities.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
@@ -101,14 +104,13 @@
     </div>
     <div class="col">
         <div class="card shadow-sm">
-            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
+            <img src="assets/img/back.jpg" alt="Bootstrap" class="group2"   focusable="false">
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
 
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Card title</h5>
-                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <h5 class="card-title text-danger">Back</h5>
+                    <p class="card-text">The back encompasses a complex network of muscles, such as the latissimus dorsi, trapezius, and erector spinae, crucial for posture, stability, and movement..</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
@@ -120,14 +122,14 @@
     </div>
     <div class="col">
         <div class="card shadow-sm">
-            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
+            <img src="assets/img/bicep.png" alt="Bootstrap"  class="group2" focusable="false">
             <title>Placeholder</title>
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
 
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Card title</h5>
-                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <h5 class="card-title text-danger">Biceps</h5>
+                    <p class="card-text">The biceps, located in the upper arm, are a prominent muscle group responsible for forearm flexion and play a role in arm strength and aesthetics.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
@@ -139,14 +141,14 @@
     </div>
     <div class="col">
         <div class="card shadow-sm">
-            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
+            <img src="assets/img/tri.png" alt="Bootstrap" class="group2" focusable="false">
+
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
 
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Card title</h5>
-                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <h5 class="card-title text-danger">Triceps</h5>
+                    <p class="card-text">The triceps, situated at the back of the upper arm, consist of three heads and are pivotal for extending the forearm and overall arm strength.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
@@ -158,14 +160,33 @@
     </div>
     <div class="col">
         <div class="card shadow-sm">
-            <img src="/bootstrap/images/flower.jpg" alt="Bootstrap"  height="100" class="border border-white" preserveaspectratio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
+            <img src="assets/img/core.png" alt="Bootstrap"  class="group2" focusable="false">
+
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
 
 
                 <div class="card-body">
-                    <h5 class="card-title text-danger">Card title</h5>
-                    <p class="card-text">A card is a flexible and extensible container for content. provides a natural lead-in to more information, with supporting text below.</p>
+                    <h5 class="card-title text-danger">Core/Abs</h5>
+                    <p class="card-text">The core comprises muscles like the rectus abdominis, obliques, and transverse abdominis, providing stability, posture support, and power for various movements.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-info">More info</button>
+                        </div>
+                        <small class="text-body-secondary">6 mins</small>
+                    </div>
+                </div>
+            </rect></div>
+    </div>
+    <div class="col">
+        <div class="card shadow-sm">
+            <img src="assets/img/shoulder.png" alt="Bootstrap"  class="group2" focusable="false">
+
+            <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+
+                <div class="card-body">
+                    <h5 class="card-title text-danger">Shoulders</h5>
+                    <p class="card-text">The shoulder muscles, including the deltoids and rotator cuff, enable a wide range of arm and shoulder movements, vital for upper body strength and flexibility.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
