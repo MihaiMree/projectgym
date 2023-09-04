@@ -11,9 +11,13 @@
     <script src="https://kit.fontawesome.com/ad3e0eb89e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="image">
-    <img class="logo" src="assets/img/prog.png">
-</div>
+<header>
+    <div class="logo">
+
+        <h1>Gym Tracker</h1>
+        <img class="logo-too" src="assets/img/logo2.png">
+    </div>
+</header>
 <div class="d-flex flex-column flex-shrink-0 bg-black" style="width: 7.1rem;height: 100vh">
     <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
 

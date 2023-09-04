@@ -5,9 +5,16 @@ body,html {
 }
 .main{
     position: absolute;
-
-    left: 7.2rem;
+    text-align: center;
+    left: 7.3rem;
+    font-family: Copperplate;
 }
+@media screen and (min-width: 500px) {
+    .main{
+        width: 85vw;
+    }
+}
+
 .side-bar{
     width: 7.1rem;
     height: 100vh;
@@ -28,10 +35,17 @@ body,html {
 
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 20px 0; /* Add some top and bottom padding for spacing */
+    font-family: Copperplate;
+}
+@media screen and (min-width: 500px){
+    header{
+       text-align: left ;
+
+    }
 }
 
 .logo h1 {
@@ -41,18 +55,27 @@ header {
 .logo-too{
     position: fixed;
     z-index: 0;
-    height: 10vh;
+    height: 6rem;
     width:7.1rem;
     left:0vw;
     top:0vw;
 }
+
 
 .legs{
     position: absolute;
     width: 75vw ;
     height: 20vh;
     left: 7.3rem;
-    top: 19vh;
+    top: 10rem;
+    justify-content: center;
+    font-family: Copperplate;
+
+}
+@media screen and (min-width: 420px) {
+    .legs{
+        left: 15rem;
+    }
 }
 .group{
     width:100%;

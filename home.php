@@ -17,8 +17,8 @@
     <header>
         <div class="logo">
 
-            <h1>Gym Tracker</h1>
-            <img class="logo-too" src="assets/img/logo2.png">
+            <h1>Workout Tracker</h1>
+            <img class="logo-too" src="assets/img/logo.png">
         </div>
     </header>
 
@@ -26,7 +26,7 @@
 
 
 <h1 class="main">
-    Choose your muscule group
+    Choose your muscle group
 </h1>
 
 <div class="d-flex flex-column flex-shrink-0 bg-black side-bar" >
@@ -80,7 +80,6 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
                         </div>
-                        <small class="text-body-secondary">6 mins</small>
                     </div>
                 </div>
             </rect></div>
@@ -97,7 +96,6 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
                         </div>
-                        <small class="text-body-secondary">6 mins</small>
                     </div>
                 </div>
             </rect></div>
@@ -115,7 +113,6 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
                         </div>
-                        <small class="text-body-secondary">6 mins</small>
                     </div>
                 </div>
             </rect></div>
@@ -125,8 +122,6 @@
             <img src="assets/img/bicep.png" alt="Bootstrap"  class="group2" focusable="false">
             <title>Placeholder</title>
             <rect width="50" height="100%" fill="#55595c"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
-
-
                 <div class="card-body">
                     <h5 class="card-title text-danger">Biceps</h5>
                     <p class="card-text">The biceps, located in the upper arm, are a prominent muscle group responsible for forearm flexion and play a role in arm strength and aesthetics.</p>
@@ -134,7 +129,6 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
                         </div>
-                        <small class="text-body-secondary">6 mins</small>
                     </div>
                 </div>
             </rect></div>
@@ -153,7 +147,6 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
                         </div>
-                        <small class="text-body-secondary">6 mins</small>
                     </div>
                 </div>
             </rect></div>
@@ -172,7 +165,6 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
                         </div>
-                        <small class="text-body-secondary">6 mins</small>
                     </div>
                 </div>
             </rect></div>
@@ -191,7 +183,6 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-info">More info</button>
                         </div>
-                        <small class="text-body-secondary">6 mins</small>
                     </div>
                 </div>
             </rect></div>
