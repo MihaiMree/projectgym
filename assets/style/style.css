@@ -114,11 +114,17 @@ header {
     }
 }
 a {
-
     color: black;
 }
 .contact_text {
     font-size: x-large;
     font-weight: 300;
 
+}
+.bottom {
+    position: fixed;
+    height: 6rem;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
 }

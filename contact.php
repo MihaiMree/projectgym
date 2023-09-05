@@ -28,7 +28,6 @@
 <h1 class="main">
     Contact
 </h1>
-
 <div class="d-flex flex-column flex-shrink-0 bg-black side-bar" >
     <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
 
@@ -66,16 +65,14 @@
         </li
     </ul>
 </div>
-
 <div class="contact">
     <p class="contact_text"> For more questions that are not in the <a href="faq.php">FAQ</a> call: <br>
         tel: 070-3562900 <br>
         or E-mail to <br>
         089621@glr.nl <br>
     </p>
-
-
 </div>
+
 
 <script src="assets/js/script.js"></script>
 </body>
