@@ -26,7 +26,7 @@
 
 
 <h1 class="main">
-    Your Workouts
+    Contact
 </h1>
 
 <div class="d-flex flex-column flex-shrink-0 bg-black side-bar" >
@@ -41,7 +41,7 @@
             </a>
         </li>
         <li>
-            <a href="work.php" class="nav-link active py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Workouts" data-bs-original-title="Workouts">
+            <a href="work.php" class="nav-link  py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Workouts" data-bs-original-title="Workouts">
                 <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
                 <div class="mask flex-center">
                     <p class="main-text">Workouts</p>
@@ -49,7 +49,7 @@
             </a>
         </li>
         <li>
-            <a href="contact.php" class="nav-link py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Contact" data-bs-original-title="Contact">
+            <a href="contact.php" class="nav-link active py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Contact" data-bs-original-title="Contact">
                 <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><style>svg{fill:#ffffff}</style><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                 <div class="mask flex-center">
                     <p class="main-text">Contact</p>
@@ -67,6 +67,15 @@
     </ul>
 </div>
 
+<div class="contact">
+    <p class="contact_text"> For more questions that are not in the <a href="faq.php">FAQ</a> call: <br>
+        tel: 070-3562900 <br>
+        or E-mail to <br>
+        089621@glr.nl <br>
+    </p>
+
+
+</div>
 
 <script src="assets/js/script.js"></script>
 </body>
