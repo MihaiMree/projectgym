@@ -113,8 +113,9 @@ header {
         width: 100vw;
     }
 }
-a {
+.side-bar, a ,a:hover{
     color: black;
+    text-decoration: none;
 }
 .contact_text {
     font-size: x-large;
@@ -128,3 +129,71 @@ a {
     width: 100vw;
     text-align: center;
 }
+.faq-container {
+    width: 93vw;
+    margin: 0 auto;
+    position: absolute;
+    top: 11rem;
+    left: 7.5rem;
+}
+@media screen and (max-width: 500px){
+    .faq-container{
+        width: 65vw;
+    }
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    display: none;
+}
+
+.container {
+    position: absolute;
+    left: 24rem;
+    top: 13rem;
+    height: 90vh;
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . . . . . . . . ."
+    ". . . oefening oefening oefening oefening . . ."
+    ". . . oefening oefening oefening oefening . . ."
+    ". . . oefening oefening oefening oefening . . ."
+    ". . . . . . . . . ."
+    ". set1 set1 . set2 set2 . set3 set3 ."
+    ". set1 set1 . set2 set2 . set3 set3 ."
+    ". set1 set1 . set2 set2 . set3 set3 ."
+    ". set1 set1 . set2 set2 . set3 set3 ."
+    ". . . . . . . . . .";
+}
+
+.oefening {
+    border: solid black 2px;
+    grid-area: oefening; }
+
+.set2 {
+    border: solid black 2px;
+    grid-area: set2; }
+
+.set1 {
+    border: solid black 2px;
+    grid-area: set1; }
+
+.set3 {
+    border: solid black 2px;
+    grid-area: set3; }
