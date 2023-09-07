@@ -76,7 +76,20 @@ include "assets/config/config.php";
     <div class="set2"></div>
     <div class="set3"></div>
 </div>
+<div class="container">
+    <div class="oefening"></div>
+    <div class="set1"></div>
+    <div class="set2"></div>
+    <div class="set3"></div>
+</div>
 
+<div class="container">
+    <div class="oefening"></div>
+    <div class="set1"></div>
+    <div class="set2"></div>
+    <div class="set3"></div>
+</div>
+a
 <script src="assets/js/script.js"></script>
 </body>
 </html>

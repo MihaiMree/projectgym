@@ -158,11 +158,7 @@ header {
 }
 
 .container {
-    position: absolute;
-    left: 24rem;
-    top: 13rem;
     height: 90vh;
-    border: solid black 2px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -180,6 +176,11 @@ header {
     ". set1 set1 . set2 set2 . set3 set3 ."
     ". set1 set1 . set2 set2 . set3 set3 ."
     ". . . . . . . . . .";
+}
+@media screen and (min-width: 2000px){
+    .container {
+        left: 24rem;
+    }
 }
 
 .oefening {
