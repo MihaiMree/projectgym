@@ -68,69 +68,13 @@
     </ul>
 </div>
 
-<form method="POST" action="assets/config/chest/process_bb.php">
-<div class="container">
-    <div class="oefening"> <img src="assets/img/chest/bench.png" class="oefening-img"> </div>
-
-    <div class="set1">
-        <h3>
-            Bench Press
-        </h3>
-        <h4>
-            Set 1
-        </h4>
-
-            <label for="naam">Username <small>(caps-lock sensitive)</small>: </label>
-            <input type="text" id="naam" name="naam" required> <br>
-
-            <label for="bb_gewicht_set1">Weight in KG: </label> <br>
-            <input type="number" id="bb_gewicht_set1" name="bb_gewicht_set1"> <br>
-
-            <label for="bb_reps_set1">Reps: </label> <br>
-            <input type="number" id="bb_reps_set1" name="bb_reps_set1"> <br> <br>
-
-    </div>
-
-    <div class="set2">
-
-        <h4>
-            Set 2
-        </h4>
-
-            <label for="bb_gewicht_set2">Weight in KG: </label> <br>
-            <input type="number" id="bb_gewicht_set2" name="bb_gewicht_set2"> <br>
-
-            <label for="bb_reps_set2">Reps: </label> <br>
-            <input type="number" id="bb_reps_set2" name="bb_reps_set2"> <br> <br>
-
-
-        <button type="submit">DONE</button>
-
-    </div>
-    <div class="set3">
-        <h4>
-            Set 3
-        </h4>
-
-            <label for="bb_gewicht_set3">Weight in KG: </label> <br>
-            <input type="number" id="bb_gewicht_set3" name="bb_gewicht_set3"> <br>
-
-            <label for="bb_reps_set3">Reps: </label> <br>
-            <input type="number" id="bb_reps_set3" name="bb_reps_set3"> <br> <br>
-
-    </div>
-
-    </div>
-
-    </form>
-
-<form method="POST" action="assets/config/chest/process_cf.php">
+<form method="POST" action="assets/config/tri/pushdown.php">
     <div class="container">
-        <div class="oefening"> <img src="assets/img/chest/cf.jpg" class="oefening-img"> </div>
+        <div class="oefening"> <img src="assets/img/triceps/push.jpg" class="oefening-img"> </div>
 
         <div class="set1">
             <h3>
-                Cable fly
+                Triceps Pushdown
             </h3>
             <h4>
                 Set 1
@@ -139,24 +83,26 @@
             <label for="naam">Username <small>(caps-lock sensitive)</small>: </label>
             <input type="text" id="naam" name="naam" required> <br>
 
-            <label for="cf_gewicht_set1">Weight in KG: </label> <br>
-            <input type="number" id="cf_gewicht_set1" name="cf_gewicht_set1"> <br>
+            <label for="gewicht_set1">Weight in KG: </label> <br>
+            <input type="number" id="gewicht_set1" name="gewicht_set1"> <br>
 
-            <label for="cf_reps_set1">Reps: </label> <br>
-            <input type="number" id="cf_reps_set1" name="cf_reps_set1"> <br> <br>
+            <label for="reps_set1">Reps: </label> <br>
+            <input type="number" id="reps_set1" name="reps_set1"> <br> <br>
 
         </div>
 
         <div class="set2">
+
             <h4>
                 Set 2
             </h4>
 
-            <label for="cf_gewicht_set2">Weight in KG: </label> <br>
-            <input type="number" id="cf_gewicht_set2" name="cf_gewicht_set2"> <br>
+            <label for="gewicht_set2">Weight in KG: </label> <br>
+            <input type="number" id="gewicht_set2" name="gewicht_set2"> <br>
 
-            <label for="cf_reps_set2">Reps: </label> <br>
-            <input type="number" id="cf_reps_set2" name="cf_reps_set2"> <br> <br>
+            <label for="reps_set2">Reps: </label> <br>
+            <input type="number" id="reps_set2" name="reps_set2"> <br> <br>
+
 
             <button type="submit">DONE</button>
 
@@ -166,11 +112,11 @@
                 Set 3
             </h4>
 
-            <label for="cf_gewicht_set3">Weight in KG: </label> <br>
-            <input type="number" id="cf_gewicht_set3" name="cf_gewicht_set3"> <br>
+            <label for="gewicht_set3">Weight in KG: </label> <br>
+            <input type="number" id="gewicht_set3" name="gewicht_set3"> <br>
 
-            <label for="cf_reps_set3">Reps: </label> <br>
-            <input type="number" id="cf_reps_set3" name="cf_reps_set3"> <br> <br>
+            <label for="reps_set3">Reps: </label> <br>
+            <input type="number" id="reps_set3" name="reps_set3"> <br> <br>
 
         </div>
 
@@ -178,13 +124,67 @@
 
 </form>
 
-<form method="POST" action="assets/config/chest/process_db.php">
+<form method="POST" action="assets/config/tri/skull.php">
     <div class="container">
-        <div class="oefening"> <img src="assets/img/chest/db.jpg" class="oefening-img"> </div>
+        <div class="oefening"> <img src="assets/img/triceps/skull.jpg" class="oefening-img"> </div>
 
         <div class="set1">
             <h3>
-                Incline DB Press
+                Skull Crushers
+            </h3>
+            <h4>
+                Set 1
+            </h4>
+
+            <label for="naam">Username <small>(caps-lock sensitive)</small>: </label>
+            <input type="text" id="naam" name="naam" required> <br>
+
+            <label for="gewicht_set1">Weight in KG: </label> <br>
+            <input type="number" id="gewicht_set1" name="gewicht_set1"> <br>
+
+            <label for="reps_set1">Reps: </label> <br>
+            <input type="number" id="reps_set1" name="reps_set1"> <br> <br>
+
+        </div>
+
+        <div class="set2">
+            <h4>
+                Set 2
+            </h4>
+
+            <label for="gewicht_set2">Weight in KG: </label> <br>
+            <input type="number" id="gewicht_set2" name="gewicht_set2"> <br>
+
+            <label for="reps_set2">Reps: </label> <br>
+            <input type="number" id="reps_set2" name="reps_set2"> <br> <br>
+
+            <button type="submit">DONE</button>
+
+        </div>
+        <div class="set3">
+            <h4>
+                Set 3
+            </h4>
+
+            <label for="gewicht_set3">Weight in KG: </label> <br>
+            <input type="number" id="gewicht_set3" name="gewicht_set3"> <br>
+
+            <label for="reps_set3">Reps: </label> <br>
+            <input type="number" id="reps_set3" name="reps_set3"> <br> <br>
+
+        </div>
+
+    </div>
+
+</form>
+
+<form method="POST" action="assets/config/tri/dips.php.php">
+    <div class="container">
+        <div class="oefening"> <img src="assets/img/triceps/dips.jpg" class="oefening-img"> </div>
+
+        <div class="set1">
+            <h3>
+                BW Dips
             </h3>
             <h3>
                 Set 1
@@ -196,7 +196,7 @@
             <label for="gewicht_set1">Weight in KG: </label> <br>
             <input type="number" id="gewicht_set1" name="gewicht_set1"> <br>
 
-            <label for="bb_reps_set1">Reps: </label> <br>
+            <label for="reps_set1">Reps: </label> <br>
             <input type="number" id="reps_set1" name="reps_set1"> <br> <br>
 
         </div>
@@ -233,13 +233,13 @@
 
 </form>
 
-<form method="POST" action="assets/config/chest/process_smi.php">
+<form method="POST" action="assets/config/tri/overhead.php">
     <div class="container">
-        <div class="oefening"> <img src="assets/img/chest/snith.jpg" class="oefening-img"> </div>
+        <div class="oefening"> <img src="assets/img/triceps/cable_over.jpg" class="oefening-img"> </div>
 
         <div class="set1">
             <h3>
-                Incline S-M Press
+                Overhead Extension
             </h3>
             <h4>
                 Set 1
@@ -288,118 +288,8 @@
 
 </form>
 
-<form method="POST" action="assets/config/chest/process_mfp.php">
-    <div class="container">
-        <div class="oefening"> <img src="assets/img/chest/mfp.png" class="oefening-img"> </div>
 
-        <div class="set1">
-            <h3>
-                Machine Flat Press
-            </h3>
-            <h4>
-                Set 1
-            </h4>
-
-            <label for="naam">Username <small>(caps-lock sensitive)</small>: </label>
-            <input type="text" id="naam" name="naam" required> <br>
-
-            <label for="gewicht_set1">Weight in KG: </label> <br>
-            <input type="number" id="gewicht_set1" name="gewicht_set1"> <br>
-
-            <label for="reps_set1">Reps: </label> <br>
-            <input type="number" id="reps_set1" name="reps_set1"> <br> <br>
-
-        </div>
-
-        <div class="set2">
-
-            <h4>
-                Set 2
-            </h4>
-
-            <label for="gewicht_set2">Weight in KG: </label> <br>
-            <input type="number" id="gewicht_set2" name="gewicht_set2"> <br>
-
-            <label for="reps_set2">Reps: </label> <br>
-            <input type="number" id="reps_set2" name="reps_set2"> <br> <br>
-
-
-            <button class="bttn"  type="submit">DONE</button>
-
-        </div>
-        <div class="set3">
-            <h4>
-                Set 3
-            </h4>
-
-            <label for="gewicht_set3">Weight in KG: </label> <br>
-            <input type="number" id="gewicht_set3" name="gewicht_set3"> <br>
-
-            <label for="reps_set3">Reps: </label> <br>
-            <input type="number" id="reps_set3" name="reps_set3"> <br> <br>
-
-        </div>
-
-    </div>
-
-</form>
-
-<form method="POST" action="assets/config/chest/process_mf.php">
-    <div class="container">
-        <div class="oefening"> <img src="assets/img/chest/mf.jpg" class="oefening-img"> </div>
-
-        <div class="set1">
-            <h3>
-                Machine Fly
-            </h3>
-            <h4>
-                Set 1
-            </h4>
-            <label for="naam">Username <small>(caps-lock sensitive)</small>: </label>
-            <input type="text" id="naam" name="naam" required> <br>
-
-            <label for="gewicht_set1">Weight in KG: </label> <br>
-            <input type="number" id="gewicht_set1" name="gewicht_set1"> <br>
-
-            <label for="reps_set1">Reps: </label> <br>
-            <input type="number" id="reps_set1" name="reps_set1"> <br> <br>
-
-        </div>
-
-        <div class="set2">
-            <h4>
-                Set 2
-            </h4>
-
-            <label for="gewicht_set2">Weight in KG: </label> <br>
-            <input type="number" id="gewicht_set2" name="gewicht_set2"> <br>
-
-            <label for="reps_set2">Reps: </label> <br>
-            <input type="number" id="reps_set2" name="reps_set2"> <br> <br>
-
-
-            <button class="bttn"  type="submit">DONE</button>
-
-        </div>
-        <div class="set3">
-            <h4>
-                Set 3
-            </h4>
-
-            <label for="gewicht_set3">Weight in KG: </label> <br>
-            <input type="number" id="gewicht_set3" name="gewicht_set3"> <br>
-
-            <label for="reps_set3">Reps: </label> <br>
-            <input type="number" id="reps_set3" name="reps_set3"> <br> <br>
-
-        </div>
-
-    </div>
-
-</form>
 
 <script src="assets/js/script.js"></script>
 </body>
 </html>
-
-

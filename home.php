@@ -94,7 +94,7 @@
                     <p class="card-text">The legs consist of various muscles, including quadriceps, hamstrings, calves, and more, enabling mobility, balance, and support for daily activities.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-info">More</button>
+                            <button type="button" class="btn btn-sm btn-info"href="chest.php"><a href="legs.php">More</a></button>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                     <p class="card-text">The back encompasses a complex network of muscles, such as the latissimus dorsi, trapezius, and erector spinae, crucial for posture, stability, and movement..</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-info">More</button>
+                            <button type="button" class="btn btn-sm btn-info"><a href="back.php">More</a></button>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                     <p class="card-text">The biceps, located in the upper arm, are a prominent muscle group responsible for forearm flexion and play a role in arm strength and aesthetics.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-info">More</button>
+                            <button type="button" class="btn btn-sm btn-info"><a href="biceps.php">More</a></button>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                     <p class="card-text">The triceps, situated at the back of the upper arm, consist of three heads and are pivotal for extending the forearm and overall arm strength.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-info">More</button>
+                            <button type="button" class="btn btn-sm btn-info"><a href="triceps.php">More</a></button>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                     <p class="card-text">The core comprises muscles like the rectus abdominis, obliques, and transverse abdominis, providing stability, posture support, and power for various movements.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-info">More</button>
+                            <button type="button" class="btn btn-sm btn-info"><a href="core.php">More</a></button>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                     <p class="card-text">The shoulder muscles, including the deltoids and rotator cuff, enable a wide range of arm and shoulder movements, vital for upper body strength and flexibility.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-info">More</button>
+                            <button type="button" class="btn btn-sm btn-info"><a href="shoulders.php">More</a></button>
                         </div>
                     </div>
                 </div>
