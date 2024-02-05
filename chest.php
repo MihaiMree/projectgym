@@ -84,10 +84,10 @@
             <input type="text" id="naam" name="naam" required> <br>
 
             <label for="bb_gewicht_set1">Weight in KG: </label> <br>
-            <input type="number" id="bb_gewicht_set1" name="bb_gewicht_set1"> <br>
+            <input type="number" id="gewicht_set1" name="gewicht_set1"> <br>
 
             <label for="bb_reps_set1">Reps: </label> <br>
-            <input type="number" id="bb_reps_set1" name="bb_reps_set1"> <br> <br>
+            <input type="number" id="reps_set1" name="reps_set1"> <br> <br>
 
     </div>
 
@@ -98,10 +98,10 @@
         </h4>
 
             <label for="bb_gewicht_set2">Weight in KG: </label> <br>
-            <input type="number" id="bb_gewicht_set2" name="bb_gewicht_set2"> <br>
+            <input type="number" id="gewicht_set2" name="gewicht_set2"> <br>
 
             <label for="bb_reps_set2">Reps: </label> <br>
-            <input type="number" id="bb_reps_set2" name="bb_reps_set2"> <br> <br>
+            <input type="number" id="reps_set2" name="reps_set2"> <br> <br>
 
 
         <button type="submit">DONE</button>
@@ -113,10 +113,10 @@
         </h4>
 
             <label for="bb_gewicht_set3">Weight in KG: </label> <br>
-            <input type="number" id="bb_gewicht_set3" name="bb_gewicht_set3"> <br>
+            <input type="number" id="gewicht_set3" name="gewicht_set3"> <br>
 
             <label for="bb_reps_set3">Reps: </label> <br>
-            <input type="number" id="bb_reps_set3" name="bb_reps_set3"> <br> <br>
+            <input type="number" id="reps_set3" name="reps_set3"> <br> <br>
 
     </div>
 
@@ -140,10 +140,10 @@
             <input type="text" id="naam" name="naam" required> <br>
 
             <label for="cf_gewicht_set1">Weight in KG: </label> <br>
-            <input type="number" id="cf_gewicht_set1" name="cf_gewicht_set1"> <br>
+            <input type="number" id="gewicht_set1" name="gewicht_set1"> <br>
 
             <label for="cf_reps_set1">Reps: </label> <br>
-            <input type="number" id="cf_reps_set1" name="cf_reps_set1"> <br> <br>
+            <input type="number" id="reps_set1" name="reps_set1"> <br> <br>
 
         </div>
 
@@ -153,10 +153,10 @@
             </h4>
 
             <label for="cf_gewicht_set2">Weight in KG: </label> <br>
-            <input type="number" id="cf_gewicht_set2" name="cf_gewicht_set2"> <br>
+            <input type="number" id="gewicht_set2" name="gewicht_set2"> <br>
 
             <label for="cf_reps_set2">Reps: </label> <br>
-            <input type="number" id="cf_reps_set2" name="cf_reps_set2"> <br> <br>
+            <input type="number" id="reps_set2" name="reps_set2"> <br> <br>
 
             <button type="submit">DONE</button>
 
@@ -167,10 +167,10 @@
             </h4>
 
             <label for="cf_gewicht_set3">Weight in KG: </label> <br>
-            <input type="number" id="cf_gewicht_set3" name="cf_gewicht_set3"> <br>
+            <input type="number" id="gewicht_set3" name="gewicht_set3"> <br>
 
             <label for="cf_reps_set3">Reps: </label> <br>
-            <input type="number" id="cf_reps_set3" name="cf_reps_set3"> <br> <br>
+            <input type="number" id="reps_set3" name="reps_set3"> <br> <br>
 
         </div>
 

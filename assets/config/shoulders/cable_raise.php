@@ -11,7 +11,7 @@ $message = ''; // Initialize a variable to hold the message
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
+    $date = date('Y-m-d');
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $naam = $_POST['naam'];
         $gewicht_set1 = $_POST['gewicht_set1'];
@@ -21,8 +21,8 @@ try {
         $gewicht_set3 = $_POST['gewicht_set3'];
         $reps_set3 = $_POST['reps_set3'];
 
-        $stmt = $conn->prepare('INSERT INTO sh_cable_raise(naam, gewicht_set1, reps_set1, gewicht_set2, reps_set2, gewicht_set3, reps_set3) VALUES (?, ?, ?, ?, ?, ?, ?)');
-        $stmt->execute([$naam, $gewicht_set1, $reps_set1, $gewicht_set2, $reps_set2,$gewicht_set3, $reps_set3]);
+        $stmt = $conn->prepare('INSERT INTO sh_cable_raise(naam, gewicht_set1, reps_set1, gewicht_set2, reps_set2, gewicht_set3, reps_set3, date) VALUES (?, ?, ?, ?, ?, ?, ?,?)');
+        $stmt->execute([$naam, $gewicht_set1, $reps_set1, $gewicht_set2, $reps_set2,$gewicht_set3, $reps_set3, $date]);
         $message = 'Saved successfully';
     }
 } catch (PDOException $e) {

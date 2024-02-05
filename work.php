@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <title>Gym tracking</title>
@@ -87,9 +87,9 @@
                         <option value="barbell_press" >Bench Press</option>
                         <option value="cable_fly" >Cable Fly</option>
                         <option value="db_incline_press">Incline DB Press</option>
-                        <option value="inclineSmith">Incline Smith Machine Press</option>
-                        <option value="smithmachine_incline_press">Machine Flat Press</option>
-                        <option value="machine_falt_press">Machine Fly</option>
+                        <option value="smithmachine_incline_press">Incline Smith Machine Press</option>
+                        <option value="machine_flat_press">Machine Flat Press</option>
+                        <option value="machine_fly">Machine Fly</option>
                         </optgroup>
 
                         <optgroup label="Legs">
@@ -118,22 +118,22 @@
                         </optgroup>
 
                         <optgroup label="Triceps">
-                            <option value="dips" >Dips</option>
-                            <option value="overhead">Overhead Extension</option>
-                            <option value="pushdown">Cable Pushdown</option>
-                            <option value="skll">Skull Crushers</option>
+                            <option value="tri_dips" >Dips</option>
+                            <option value=" tri_overhead">Overhead Extension</option>
+                            <option value="tri_pushdown">Cable Pushdown</option>
+                            <option value="tri_skull">Skull Crushers</option>
                         </optgroup>
 
                         <optgroup label="Shoulders">
-                            <option value="cableRaise" >Cable Lateral Raise</option>
-                            <option value="raise">Dumbell Lateral Raise</option>
-                            <option value="rev_raise">Rear Delt Fly</option>
-                            <option value="shoulderP">Dumbell Shoulder Press</option>
+                            <option value="sh_cable_raise" >Cable Lateral Raise</option>
+                            <option value="sh_raise">Dumbell Lateral Raise</option>
+                            <option value="sh_reverse_fly">Rear Delt Fly</option>
+                            <option value="sh_shoulder_press">Dumbell Shoulder Press</option>
                         </optgroup>
 
                         <optgroup label="Core">
-                            <option value="crunch" >Cable Crunch</option>
-                            <option value="plank">Planks</option>
+                            <option value="cr_cable_crunch" >Cable Crunch</option>
+                            <option value="cr_planks">Planks</option>
                         </optgroup>
 
                     </select>
@@ -142,6 +142,7 @@
         </table>
     </form>
 </div>
+
 <div id="result">
 
 </div>

@@ -13,6 +13,7 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $date = date('Y-m-d');
         $naam = $_POST['naam'];
         $gewicht_set1 = $_POST['gewicht_set1'];
         $reps_set1 = $_POST['reps_set1'];
@@ -21,8 +22,8 @@ try {
         $gewicht_set3 = $_POST['gewicht_set3'];
         $reps_set3 = $_POST['reps_set3'];
 
-        $stmt = $conn->prepare('INSERT INTO machine_fly(naam, gewicht_set1, reps_set1, gewicht_set2, reps_set2, gewicht_set3, reps_set3) VALUES (?, ?, ?, ?, ?, ?, ?)');
-        $stmt->execute([$naam, $gewicht_set1, $reps_set1, $gewicht_set2, $reps_set2,$gewicht_set3, $reps_set3]);
+        $stmt = $conn->prepare('INSERT INTO machine_fly(naam, gewicht_set1, reps_set1, gewicht_set2, reps_set2, gewicht_set3, reps_set3, date) VALUES (?, ?, ?, ?, ?, ?, ?,?)');
+        $stmt->execute([$naam, $gewicht_set1, $reps_set1, $gewicht_set2, $reps_set2,$gewicht_set3, $reps_set3, $date]);
         $message = 'Saved successfully';
     }
 } catch (PDOException $e) {
