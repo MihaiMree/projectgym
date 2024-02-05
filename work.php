@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ad3e0eb89e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body draggable="false" ondragstart="return false">
@@ -29,7 +31,8 @@
     Your Workouts
 </h1>
 
-<div class="d-flex flex-column flex-shrink-0 bg-black side-bar" >
+
+ <div class="d-flex flex-column flex-shrink-0 bg-black side-bar" >
     <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
 
         <li class="nav-item ">
@@ -67,6 +70,81 @@
     </ul>
 </div>
 
+<div class="pastWork">
+    <form name="pastWorkouts" method="post" action="workVerwerk.php">
+        <table>
+            <tr>
+                <td>
+                    <label for="username" > Username:</label>
+                    <input type="text" name="username" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="exercise">Exsercise</label>
+                    <select name="excrcise" id="exercise">
+                        <optgroup label="Chest">
+                        <option value="barbell_press" >Bench Press</option>
+                        <option value="cable_fly" >Cable Fly</option>
+                        <option value="db_incline_press">Incline DB Press</option>
+                        <option value="inclineSmith">Incline Smith Machine Press</option>
+                        <option value="smithmachine_incline_press">Machine Flat Press</option>
+                        <option value="machine_falt_press">Machine Fly</option>
+                        </optgroup>
+
+                        <optgroup label="Legs">
+                            <option value="squat" >Barbell Squats</option>
+                            <option value="leg_extension">Leg Extensions</option>
+                            <option value="hack_squat">Hack Squats</option>
+                            <option value="leg_curls">Machine Leg Curls</option>
+                            <option value="rdl">Romanian Deadlift</option>
+                            <option value="calf_raises">Calf Raises</option>
+                        </optgroup>
+
+                        <optgroup label="Back">
+                            <option value="bb_bent_rows" >Bent Rows</option>
+                            <option value="lat_pulldown">Lat Pulldowns</option>
+                            <option value="machine_row>">Machine Rows</option>
+                            <option value="db_shrugs">Shrugs</option>
+                            <option value="one_lat_pulldown">Single Arm Lat Pulldown</option>
+                        </optgroup>
+
+                        <optgroup label="Biceps">
+                            <option value="bi_cable_curl" >Cable Curls</option>
+                            <option value="bi_db_curls">Dumbell Curls</option>
+                            <option value="bi_db_hamer">Dumbell Hamer Curls</option>
+                            <option value="bi_preecher">Preecher Curls</option>
+                            <option value="bi_cable_one_hamer">S-A Cable Hamer Curl</option>
+                        </optgroup>
+
+                        <optgroup label="Triceps">
+                            <option value="dips" >Dips</option>
+                            <option value="overhead">Overhead Extension</option>
+                            <option value="pushdown">Cable Pushdown</option>
+                            <option value="skll">Skull Crushers</option>
+                        </optgroup>
+
+                        <optgroup label="Shoulders">
+                            <option value="cableRaise" >Cable Lateral Raise</option>
+                            <option value="raise">Dumbell Lateral Raise</option>
+                            <option value="rev_raise">Rear Delt Fly</option>
+                            <option value="shoulderP">Dumbell Shoulder Press</option>
+                        </optgroup>
+
+                        <optgroup label="Core">
+                            <option value="crunch" >Cable Crunch</option>
+                            <option value="plank">Planks</option>
+                        </optgroup>
+
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div id="result">
+
+</div>
 
 <script src="assets/js/script.js"></script>
 </body>

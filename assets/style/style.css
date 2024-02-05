@@ -289,3 +289,14 @@ header {
     }
 
 }
+.pastWork{
+    position: absolute;
+    top: 11rem;
+    left: 7.5rem;
+}
+
+ #result {
+     position: absolute;
+     top: 21rem;
+     left: 7.5rem;
+ }

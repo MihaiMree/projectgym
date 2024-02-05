@@ -12,3 +12,24 @@ faqItems.forEach((item) => {
         }
     });
 });
+
+
+$(document).ready(function(){
+    $('#exercise').on('change', function(){
+        let tableName = $(this).val();
+        let username = $('#username').val();
+        if(tableName && username){
+            $.ajax({
+                type:'POST',
+                url:'assets/config/workConfig.php',
+                data:{
+                    'table_name':tableName,
+                    'username': username
+                },
+                success:function(html){
+                    $('#result').html(html);
+                }
+            });
+        }
+    });
+});

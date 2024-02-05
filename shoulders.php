@@ -238,7 +238,7 @@
 
         <div class="set1">
             <h3>
-                BW Planks
+                Rear Delt Fly
             </h3>
             <h4>
                 Set 1

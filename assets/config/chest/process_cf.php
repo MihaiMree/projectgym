@@ -3,7 +3,7 @@ error_reporting(E_ALL); // Enable error reporting
 ini_set('display_errors', 1); // Display errors on the web page (remove this in production)
 $servername = "localhost"; // Replace with your server name
 $username = "mihai"; // Replace with your MySQL username
-$password = "yxt23V9_4"; // Replace with your MySQL password
+$password = "rf2wM5!60"; // Replace with your MySQL password
 $dbname = "stu_mihai"; // Replace with your MySQL database name
 
 $message = ''; // Initialize a variable to hold the message
@@ -14,15 +14,15 @@ try {
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $naam = $_POST['naam'];
-        $cf_gewicht_set1 = $_POST['cf_gewicht_set1'];
-        $cf_reps_set1 = $_POST['cf_reps_set1'];
-        $cf_gewicht_set2 = $_POST['cf_gewicht_set2'];
-        $cf_reps_set2 = $_POST['cf_reps_set2'];
-        $cf_gewicht_set3 = $_POST['cf_gewicht_set3'];
-        $cf_reps_set3 = $_POST['cf_reps_set3'];
+        $gewicht_set1 = $_POST['gewicht_set1'];
+        $reps_set1 = $_POST['reps_set1'];
+        $gewicht_set2 = $_POST['gewicht_set2'];
+        $reps_set2 = $_POST['reps_set2'];
+        $gewicht_set3 = $_POST['gewicht_set3'];
+        $reps_set3 = $_POST['reps_set3'];
 
-        $stmt = $conn->prepare('INSERT INTO cable_fly (naam, cf_gewicht_set1, cf_reps_set1, cf_gewicht_set2, cf_reps_set2, cf_gewicht_set3, cf_reps_set3) VALUES (?, ?, ?, ?, ?, ?, ?)');
-        $stmt->execute([$naam, $cf_gewicht_set1, $cf_reps_set1, $cf_gewicht_set2, $cf_reps_set2,$cf_gewicht_set3, $cf_reps_set3]);
+        $stmt = $conn->prepare('INSERT INTO cable_fly (naam, gewicht_set1, reps_set1, gewicht_set2, reps_set2, gewicht_set3, reps_set3) VALUES (?, ?, ?, ?, ?, ?, ?)');
+        $stmt->execute([$naam, $gewicht_set1, $reps_set1, $gewicht_set2, $reps_set2,$gewicht_set3, $reps_set3]);
         $message = 'Saved successfully';
     }
 } catch (PDOException $e) {

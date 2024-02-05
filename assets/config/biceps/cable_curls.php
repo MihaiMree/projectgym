@@ -1,9 +1,9 @@
-<?php
+å<?php
 error_reporting(E_ALL); // Enable error reporting
 ini_set('display_errors', 1); // Display errors on the web page (remove this in production)
 $servername = "localhost"; // Replace with your server name
 $username = "mihai"; // Replace with your MySQL username
-$password = "yxt23V9_4"; // Replace with your MySQL password
+$password = "rf2wM5!60"; // Replace with your MySQL password
 $dbname = "stu_mihai"; // Replace with your MySQL database name
 
 $message = ''; // Initialize a variable to hold the message
